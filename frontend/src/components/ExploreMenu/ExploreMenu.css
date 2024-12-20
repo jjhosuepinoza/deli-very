@@ -22,14 +22,14 @@
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 15px; /* reduced padding */
     transition: transform 0.2s;
 }
 .explore-menu-list-item:hover {
     transform: translateY(-5px);
 }
 .explore-menu-list-item img{
-    width: 100%;
+   
     border-radius: 15px;
     cursor: pointer;
 }
@@ -38,7 +38,7 @@
     padding: 2px;
 }
 .explore-menu-list-item p{
-    margin-top: 10px;
+    margin-top: 5px; /* reduced margin */
     color: #747474;
     font-size: max(1.4vw,16px);
     cursor: pointer;

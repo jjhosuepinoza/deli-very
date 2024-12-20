@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg389"
+   width="813"
+   height="813"
+   viewBox="0 0 813 813"
+   sodipodi:docname="file.png"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs393">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath436">
+      <rect
+         style="fill:none"
+         id="rect438"
+         width="734.12677"
+         height="224.48511"
+         x="68.761192"
+         y="291.22388"
+         rx="5.3071289"
+         ry="5.0559702" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview391"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g395">
+    <image
+       width="813"
+       height="813"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       xlink:href="data:image/svg+xml;base64,..." <!-- Ensure this line references the correct SVG data -->
+       id="image397"
+       x="19.212685"
+       y="13.145522"
+       clip-path="url(#clipPath436)"
+       transform="translate(-21.235075,-6.0671642)" />
+  </g>
+</svg>

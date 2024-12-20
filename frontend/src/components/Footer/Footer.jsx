@@ -8,15 +8,14 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
         <h1>Deli-very</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
-                <img src={assets.twitter_icon} alt="" />
-                <img src={assets.linkedin_icon} alt="" />
+              
             </div>
         </div>
         <div className="footer-content-center">
-            <h2>COMPANY</h2>
+            <h2>NAVIGATION</h2>
             <ul>
                 <li>Home</li>
                 <li>About us</li>
@@ -25,9 +24,9 @@ const Footer = () => {
             </ul>
         </div>
         <div className="footer-content-right">
-            <h2>GET IN TOUCH</h2>
+            <h2>CONTACT US</h2>
             <ul>
-                <li>+1-212-456-7890</li>
+                <li>+59312354313</li>
                 <li>contact@deli-very.com</li>
             </ul>
         </div>
