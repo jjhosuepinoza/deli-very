@@ -2,7 +2,7 @@ import basket_icon from './basket_icon.png';
 import logo from './logo.png';
 import header_img from './header_img.png';
 import search_icon from './search_icon.png';
-import menu_1 from './menu_1.png';
+// import menu_1 from './menu_1.png';
 import menu_2 from './menu_2.png';
 import menu_3 from './menu_3.png';
 import menu_4 from './menu_4.png';
@@ -42,6 +42,15 @@ import food_29 from './food_29.png';
 import food_30 from './food_30.png';
 import food_31 from './food_31.png';
 import food_32 from './food_32.png';
+import kfc_logo from './kfc_logo.svg';
+import chipo_logo from './chipo_logo.svg';
+import br_logo from './br_logo.svg';
+import subway_logo from './subway_logo.svg';
+import ccfactory_logo from './ccfactory_logo.svg';
+import mcd_logo from './mcd_logo.svg';
+import dominos_logo from './dominos_logo.svg';
+import nyc_logo from './noodles_logo.svg';
+import panda_logo from './panda_logo.svg';
 
 import add_icon_white from './add_icon_white.png';
 import add_icon_green from './add_icon_green.png';
@@ -87,36 +96,36 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
-        menu_image: menu_1
+        menu_name: "KFC",
+        menu_image: kfc_logo
     },
     {
-        menu_name: "Rolls",
-        menu_image: menu_2
+        menu_name: "Chipotle",
+        menu_image: chipo_logo
     },
     {
-        menu_name: "Deserts",
-        menu_image: menu_3
+        menu_name: "Baskin-Robbins",
+        menu_image: br_logo
     },
     {
-        menu_name: "Sandwich",
-        menu_image: menu_4
+        menu_name: "Subway",
+        menu_image: subway_logo
     },
     {
-        menu_name: "Cake",
-        menu_image: menu_5
+        menu_name: "The CC Factory",
+        menu_image: ccfactory_logo
     },
     {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
+        menu_name: "McDonald's",
+        menu_image: mcd_logo
     },
     {
-        menu_name: "Pasta",
-        menu_image: menu_7
+        menu_name: "Domino's",
+        menu_image: dominos_logo
     },
     {
-        menu_name: "Noodles",
-        menu_image: menu_8
+        menu_name: "Panda Express",
+        menu_image: panda_logo
     }
 ];
 
@@ -127,7 +136,7 @@ export const food_list = [
         image: food_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "KFC"
     },
     {
         _id: "2",
@@ -135,7 +144,7 @@ export const food_list = [
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "KFC"
     },
     {
         _id: "3",
@@ -143,7 +152,7 @@ export const food_list = [
         image: food_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "KFC"
     },
     {
         _id: "4",
@@ -151,7 +160,7 @@ export const food_list = [
         image: food_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "KFC"
     },
     {
         _id: "5",
@@ -159,7 +168,7 @@ export const food_list = [
         image: food_5,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Chipotle"
     },
     {
         _id: "6",
@@ -167,7 +176,7 @@ export const food_list = [
         image: food_6,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Chipotle"
     },
     {
         _id: "7",
@@ -175,7 +184,7 @@ export const food_list = [
         image: food_7,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Chipotle"
     },
     {
         _id: "8",
@@ -183,7 +192,7 @@ export const food_list = [
         image: food_8,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Chipotle"
     },
     {
         _id: "9",
@@ -191,7 +200,7 @@ export const food_list = [
         image: food_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Baskin-Robbins"
     },
     {
         _id: "10",
@@ -199,7 +208,7 @@ export const food_list = [
         image: food_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Baskin-Robbins"
     },
     {
         _id: "11",
@@ -207,7 +216,7 @@ export const food_list = [
         image: food_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Baskin-Robbins"
     },
     {
         _id: "12",
@@ -215,7 +224,7 @@ export const food_list = [
         image: food_12,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Baskin-Robbins"
     },
     {
         _id: "13",
@@ -223,7 +232,7 @@ export const food_list = [
         image: food_13,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Subway"
     },
     {
         _id: "14",
@@ -231,7 +240,7 @@ export const food_list = [
         image: food_14,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Subway"
     },
     {
         _id: "15",
@@ -239,7 +248,7 @@ export const food_list = [
         image: food_15,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Subway"
     },
     {
         _id: "16",
@@ -247,7 +256,7 @@ export const food_list = [
         image: food_16,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Subway"
     },
     {
         _id: "17",
@@ -255,7 +264,7 @@ export const food_list = [
         image: food_17,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "The CC Factory"
     },
     {
         _id: "18",
@@ -263,7 +272,7 @@ export const food_list = [
         image: food_18,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "The CC Factory"
     },
     {
         _id: "19",
@@ -271,7 +280,7 @@ export const food_list = [
         image: food_19,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "The CC Factory"
     },
     {
         _id: "20",
@@ -279,7 +288,7 @@ export const food_list = [
         image: food_20,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "The CC Factory"
     },
     {
         _id: "21",
@@ -287,7 +296,7 @@ export const food_list = [
         image: food_21,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "McDonald's"
     },
     {
         _id: "22",
@@ -295,7 +304,7 @@ export const food_list = [
         image: food_22,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "McDonald's"
     },
     {
         _id: "23",
@@ -303,7 +312,7 @@ export const food_list = [
         image: food_23,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "McDonald's"
     },
     {
         _id: "24",
@@ -311,7 +320,7 @@ export const food_list = [
         image: food_24,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "McDonald's"
     },
     {
         _id: "25",
@@ -319,7 +328,7 @@ export const food_list = [
         image: food_25,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Domino's"
     },
     {
         _id: "26",
@@ -327,7 +336,7 @@ export const food_list = [
         image: food_26,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Domino's"
     },
     {
         _id: "27",
@@ -335,7 +344,7 @@ export const food_list = [
         image: food_27,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Domino's"
     },
     {
         _id: "28",
@@ -343,7 +352,7 @@ export const food_list = [
         image: food_28,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Domino's"
     },
     {
         _id: "29",
@@ -351,7 +360,7 @@ export const food_list = [
         image: food_29,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Panda Express"
     },
     {
         _id: "30",
@@ -359,7 +368,7 @@ export const food_list = [
         image: food_30,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Panda Express"
     },
     {
         _id: "31",
@@ -367,7 +376,7 @@ export const food_list = [
         image: food_31,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Panda Express"
     },
     {
         _id: "32",
@@ -375,6 +384,6 @@ export const food_list = [
         image: food_32,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Panda Express"
     }
 ];
